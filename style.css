@@ -21,10 +21,6 @@ html, body {
     padding: 20px;
 }
 
-.h1 {
-    color: blue;
-}
-
 .btn {
     padding: 12px 24px;
     font-size: 18px;
@@ -33,16 +29,44 @@ html, body {
     background-color: rgb(198, 220, 186) !important;
     border: none;
     border-radius: 8px;
-    cursor: pointer;
     margin: 3px;
 }
 
-.btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+p {
+    color: black;
 }
 
-.btn:active {
-    transform: translateY(1px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+.legend-box {
+    position: absolute;
+    top: 80px;
+    right: 1vw;
+    width: 28vw;
+    padding: 15px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 8px;
 }
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 14px;
+    color: black;
+}
+
+.legend-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.red {
+    background: #B33951;
+}
+
+.blue {
+    background-color: #284B63;
+}
+

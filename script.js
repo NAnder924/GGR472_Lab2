@@ -68,5 +68,3 @@ document.getElementById('button').addEventListener('click', () => {
 		createMap(10.5)
 	}
 })
-
-
